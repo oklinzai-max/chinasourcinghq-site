@@ -1,0 +1,12 @@
+# robots.txt for ChinaSourcing
+User-agent: *
+Allow: /
+
+# /downloads/ is deliberately crawlable. These are original documents written
+# for this site, so there is no duplicate-content risk to suppress, and a PDF
+# can rank on its own for queries like "canton fair checklist pdf". Blocking
+# the folder only made the files invisible to search while people kept
+# downloading them. If the folder ever holds licensed third-party material,
+# add a Disallow rule for those specific files.
+
+Sitemap: https://chinasourcinghq.com/sitemap.xml

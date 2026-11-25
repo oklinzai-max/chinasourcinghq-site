@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="yw">
+  <title id="yw">Line illustration of a multi-storey wholesale market with rows of shop units</title>
+  <defs>
+    <pattern id="ywdots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.3" cy="1.3" r="1.3" fill="#dfe8f2"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="#f5f8fc"/>
+  <rect width="800" height="500" fill="url(#ywdots)"/>
+
+  <!-- side buildings -->
+  <g fill="#e9f0f8" stroke="#cfdcea" stroke-width="2">
+    <rect x="58" y="196" width="72" height="196" rx="4"/>
+    <rect x="672" y="228" width="76" height="164" rx="4"/>
+  </g>
+  <g stroke="#cfdcea" stroke-width="1.6">
+    <path d="M70 224h48M70 252h48M70 280h48M70 308h48M70 336h48M684 256h52M684 284h52M684 312h52M684 340h52"/>
+  </g>
+
+  <!-- main building -->
+  <rect x="150" y="96" width="500" height="296" rx="6" fill="#ffffff" stroke="#0b2545" stroke-width="3"/>
+
+  <!-- floor bands -->
+  <g>
+    <rect x="150" y="96" width="500" height="58" fill="#eef4fa"/>
+    <rect x="150" y="154" width="500" height="58" fill="#ffffff"/>
+    <rect x="150" y="212" width="500" height="58" fill="#eef4fa"/>
+    <rect x="150" y="270" width="500" height="58" fill="#ffffff"/>
+    <rect x="150" y="328" width="500" height="64" fill="#eef4fa"/>
+  </g>
+  <g stroke="#c2d2e2" stroke-width="2">
+    <path d="M150 154h500M150 212h500M150 270h500M150 328h500"/>
+  </g>
+
+  <!-- shop units row 1 -->
+  <g stroke="#b7c9dc" stroke-width="1.8" fill="#ffffff">
+    <rect x="172" y="108" width="52" height="36" rx="3"/>
+    <rect x="236" y="108" width="52" height="36" rx="3"/>
+    <rect x="300" y="108" width="52" height="36" rx="3"/>
+    <rect x="364" y="108" width="52" height="36" rx="3"/>
+    <rect x="428" y="108" width="52" height="36" rx="3"/>
+    <rect x="492" y="108" width="52" height="36" rx="3"/>
+    <rect x="556" y="108" width="52" height="36" rx="3"/>
+  </g>
+
+  <!-- shop units row 2 with one highlighted -->
+  <g stroke="#b7c9dc" stroke-width="1.8" fill="#ffffff">
+    <rect x="172" y="166" width="52" height="36" rx="3"/>
+    <rect x="236" y="166" width="52" height="36" rx="3"/>
+    <rect x="300" y="166" width="52" height="36" rx="3"/>
+    <rect x="428" y="166" width="52" height="36" rx="3"/>
+    <rect x="492" y="166" width="52" height="36" rx="3"/>
+    <rect x="556" y="166" width="52" height="36" rx="3"/>
+  </g>
+  <rect x="364" y="166" width="52" height="36" rx="3" fill="#d9541e"/>
+
+  <!-- row 3 -->
+  <g stroke="#b7c9dc" stroke-width="1.8" fill="#ffffff">
+    <rect x="172" y="224" width="52" height="36" rx="3"/>
+    <rect x="236" y="224" width="52" height="36" rx="3"/>
+    <rect x="300" y="224" width="52" height="36" rx="3"/>
+    <rect x="364" y="224" width="52" height="36" rx="3"/>
+    <rect x="428" y="224" width="52" height="36" rx="3"/>
+    <rect x="492" y="224" width="52" height="36" rx="3"/>
+    <rect x="556" y="224" width="52" height="36" rx="3"/>
+  </g>
+
+  <!-- row 4 -->
+  <g stroke="#b7c9dc" stroke-width="1.8" fill="#ffffff">
+    <rect x="172" y="282" width="52" height="36" rx="3"/>
+    <rect x="236" y="282" width="52" height="36" rx="3"/>
+    <rect x="364" y="282" width="52" height="36" rx="3"/>
+    <rect x="428" y="282" width="52" height="36" rx="3"/>
+    <rect x="492" y="282" width="52" height="36" rx="3"/>
+    <rect x="556" y="282" width="52" height="36" rx="3"/>
+  </g>
+  <rect x="300" y="282" width="52" height="36" rx="3" fill="#f6d9c9" stroke="#d9541e" stroke-width="2"/>
+
+  <!-- entrance -->
+  <rect x="336" y="336" width="128" height="56" rx="4" fill="#ffffff" stroke="#0b2545" stroke-width="2.4"/>
+  <path d="M400 336v56" stroke="#c2d2e2" stroke-width="2"/>
+  <path d="M316 336h168l-14-18H330l-14 18Z" fill="#eef4fa" stroke="#0b2545" stroke-width="2.2"/>
+
+  <!-- ground -->
+  <path d="M0 408h800" stroke="#c9d8e8" stroke-width="2.5"/>
+  <path d="M0 452h800" stroke="#dbe6f2" stroke-width="2"/>
+
+  <!-- people -->
+  <g fill="#0b2545" opacity=".7">
+    <g><circle cx="360" cy="420" r="4.4"/><rect x="357.6" y="426" width="4.8" height="14" rx="2.4"/></g>
+    <g><circle cx="382" cy="424" r="4"/><rect x="379.8" y="430" width="4.4" height="12" rx="2.2"/></g>
+    <g><circle cx="430" cy="418" r="4.2"/><rect x="427.8" y="424" width="4.6" height="14" rx="2.3"/></g>
+    <g><circle cx="466" cy="426" r="3.8"/><rect x="463.9" y="432" width="4.2" height="11" rx="2.1"/></g>
+  </g>
+
+  <!-- dashed route -->
+  <path d="M40 444c70-16 130-14 200-10" fill="none" stroke="#0b2545" stroke-width="2.4" stroke-dasharray="8 10" opacity=".45"/>
+  <circle cx="240" cy="434" r="4.4" fill="#d9541e"/>
+</svg>

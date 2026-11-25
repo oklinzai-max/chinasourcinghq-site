@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="cf">
+  <title id="cf">Line illustration of an exhibition complex with arched trade fair halls and a plaza</title>
+  <defs>
+    <pattern id="cfdots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.3" cy="1.3" r="1.3" fill="#dfe8f2"/>
+    </pattern>
+    <linearGradient id="cfglass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e4edf7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="#f5f8fc"/>
+  <rect width="800" height="500" fill="url(#cfdots)"/>
+  <circle cx="646" cy="116" r="62" fill="#fdeee6"/>
+
+  <!-- distant skyline -->
+  <g stroke="#cfdcea" stroke-width="2" fill="#e9f0f8">
+    <rect x="52" y="212" width="40" height="96" rx="3"/>
+    <rect x="100" y="188" width="30" height="120" rx="3"/>
+    <rect x="138" y="222" width="46" height="86" rx="3"/>
+    <rect x="676" y="206" width="34" height="102" rx="3"/>
+    <rect x="718" y="232" width="46" height="76" rx="3"/>
+  </g>
+
+  <!-- hall A -->
+  <path d="M112 352c0-74 74-124 168-124s168 50 168 124" fill="#ffffff" stroke="#0b2545" stroke-width="3"/>
+  <path d="M112 352h336v54H112z" fill="url(#cfglass)" stroke="#0b2545" stroke-width="3"/>
+  <g stroke="#b7c9dc" stroke-width="2">
+    <path d="M140 352v54M168 352v54M196 352v54M224 352v54M252 352v54M280 352v54M308 352v54M336 352v54M364 352v54M392 352v54M420 352v54"/>
+  </g>
+  <path d="M152 340h256" stroke="#d9541e" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- hall B -->
+  <path d="M508 366c0-42 44-72 100-72s100 30 100 72" fill="#ffffff" stroke="#0b2545" stroke-width="2.6"/>
+  <path d="M508 366h200v40H508z" fill="url(#cfglass)" stroke="#0b2545" stroke-width="2.6"/>
+  <g stroke="#c6d6e6" stroke-width="1.8">
+    <path d="M536 366v40M568 366v40M600 366v40M632 366v40M664 366v40M696 366v40"/>
+  </g>
+
+  <!-- flags -->
+  <g stroke="#0b2545" stroke-width="2.4" stroke-linecap="round">
+    <path d="M84 352v-76"/>
+  </g>
+  <path d="M84 278h34l-7 10 7 10H84z" fill="#d9541e"/>
+
+  <!-- plaza -->
+  <path d="M0 406h800" stroke="#c9d8e8" stroke-width="2.5"/>
+  <path d="M0 448h800" stroke="#dbe6f2" stroke-width="2"/>
+  <path d="M40 448c60-26 118-30 180-30s120 6 180 12 130 8 200 2 140-14 200-14" fill="none" stroke="#0b2545" stroke-width="2.6" stroke-dasharray="9 11" stroke-linecap="round" opacity=".55"/>
+  <circle cx="222" cy="418" r="5" fill="#d9541e"/>
+  <circle cx="452" cy="430" r="5" fill="#d9541e"/>
+
+  <!-- people for scale -->
+  <g fill="#0b2545" opacity=".72">
+    <g><circle cx="278" cy="384" r="4.4"/><rect x="275.6" y="390" width="4.8" height="14" rx="2.4"/></g>
+    <g><circle cx="296" cy="386" r="4"/><rect x="293.8" y="392" width="4.4" height="12" rx="2.2"/></g>
+    <g><circle cx="596" cy="392" r="4.2"/><rect x="593.8" y="398" width="4.6" height="12" rx="2.3"/></g>
+  </g>
+
+  <!-- small tree -->
+  <g stroke="#0b2545" stroke-width="2.2">
+    <path d="M700 404v-26" fill="none"/>
+    <circle cx="700" cy="366" r="16" fill="#e3eef9"/>
+  </g>
+</svg>
